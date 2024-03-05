@@ -27,6 +27,7 @@ func main() {
 
 		body["type"] = "generate_ok"
 		body["id"] = uid
+		body["time"] = now
 		return node.Reply(msg, body)
 	})
 
