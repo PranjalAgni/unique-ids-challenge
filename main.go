@@ -9,7 +9,7 @@ import (
 	maelstrom "github.com/jepsen-io/maelstrom/demo/go"
 	"github.com/lithammer/shortuuid"
 )
-
+// try encore.dev for go
 func main() {
 	node := maelstrom.NewNode()
 	prefix := shortuuid.New()
